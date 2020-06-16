@@ -1,0 +1,53 @@
+.container {
+  width: 80%;
+  display: flex;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 5px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin: 20px auto;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+}
+
+.container:hover .btn {
+  opacity: 1;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: red;
+  border: 0;
+  cursor: pointer;
+  border-radius: 9px;
+  padding: 2px 7px !important;
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  font-size: 1em;
+  align-items: center;
+  transition: opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  background-color: rgba(255, 59, 59, 0.808);
+}
+
+.amount {
+}
+
+.expense {
+  border-right: 5px solid rgba(255, 0, 0, 0.7);
+}
+
+.income {
+  border-right: 5px solid rgba(0, 255, 0, 0.7);
+}
