@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://xrovenium:xrove123@mernx-shdkc.mongodb.net/Expense?retryWrites=true&w=majority",
+  "jwtSecret": "KtJr_6C$4qZhQdYbbm3VXfQxCsWaj8bLrTQ8v6AA"
+}
